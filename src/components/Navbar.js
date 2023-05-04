@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={"https://thumbs.dreamstime.com/b/letter-rs-blue-color-design-logo-branding-letter-element-letter-rs-love-blue-design-logo-branding-letter-element-white-background-142496635.jpg"} className="img-fluid logo" alt="brand" />
+          <img src={"https://thumbs.dreamstime.com/z/rs-r-s-pink-blue-gradient-alphabet-letter-logo-combination-icon-design-alphabet-combination-letter-rs-r-s-pink-blue-gradient-133476322.jpg"} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
