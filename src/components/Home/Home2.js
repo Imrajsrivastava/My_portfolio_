@@ -19,12 +19,11 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            Hello, my name is Raj Srivastava and I am a MERN stack developer. I have experience in building dynamic and responsive web applications using MongoDB, Express.js, React.js, and Node.js. I am proficient in using front-end technologies such as HTML, CSS, and JavaScript and have a good understanding of server-side programming. I am passionate about developing user-friendly and efficient web applications and always strive to stay up-to-date with the latest technologies and industry trends.
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple">  Javascript and JAVA. </b>
+                <b className="purple">  JavaScript. </b>
               </i>
               <br />
               <br />
@@ -33,7 +32,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  Mobile Development Using React Native.
                 </b>
               </i>
               <br />
@@ -48,7 +47,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js,React Native and Next.js</b>
               </i>
             </p>
           </Col>

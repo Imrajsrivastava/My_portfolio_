@@ -5,10 +5,10 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.jpeg";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+
+
 import {
-  AiFillStar,
+  
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -85,7 +85,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                // to="/resume"
+                
                 onClick={() => window.open("https://drive.google.com/file/d/1UZeVdGiq91HVgYU8aiely_jqu-eKEumf/view?usp=share_link")}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
