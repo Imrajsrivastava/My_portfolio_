@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-// import { CgCPlusPlus } from "react-icons/cg";
+import {TbBrandReactNative  } from "react-icons/tb";
 import {
   DiJavascript1,
   DiReact,
@@ -10,7 +10,7 @@ import {
   DiGit,
   DiBootstrap,
   DiCss3,
-  DiFirebase
+  
 
 } from "react-icons/di";
 import {
@@ -19,9 +19,11 @@ import {
   SiNextdotjs,
   SiRedux,
   SiChakraui,
-  SiExpress
+  SiExpress,
+  
 
 } from "react-icons/si";
+
 
 function Techstack() {
   return (
@@ -52,6 +54,11 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        < TbBrandReactNative/>
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
