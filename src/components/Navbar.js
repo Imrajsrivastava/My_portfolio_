@@ -2,13 +2,10 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.jpeg";
-import Button from "react-bootstrap/Button";
+
 import { Link } from "react-router-dom";
 
-
 import {
-  
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -39,7 +36,13 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={"https://thumbs.dreamstime.com/z/rs-r-s-pink-blue-gradient-alphabet-letter-logo-combination-icon-design-alphabet-combination-letter-rs-r-s-pink-blue-gradient-133476322.jpg"} className="img-fluid logo" alt="brand" />
+          <img
+            src={
+              "https://thumbs.dreamstime.com/z/rs-r-s-pink-blue-gradient-alphabet-letter-logo-combination-icon-design-alphabet-combination-letter-rs-r-s-pink-blue-gradient-133476322.jpg"
+            }
+            className="img-fluid logo"
+            alt="brand"
+          />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -85,15 +88,15 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                
-                onClick={() => window.open("https://drive.google.com/file/d/1UZeVdGiq91HVgYU8aiely_jqu-eKEumf/view?usp=share_link")}
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1UZeVdGiq91HVgYU8aiely_jqu-eKEumf/view?usp=share_link"
+                  )
+                }
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
-           
-
           </Nav>
         </Navbar.Collapse>
       </Container>
